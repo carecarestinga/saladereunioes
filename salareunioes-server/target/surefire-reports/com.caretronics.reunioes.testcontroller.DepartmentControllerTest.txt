@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.caretronics.reunioes.testcontroller.DepartmentControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 19.022 sec <<< FAILURE! - in com.caretronics.reunioes.testcontroller.DepartmentControllerTest
+test_update_success(com.caretronics.reunioes.testcontroller.DepartmentControllerTest)  Time elapsed: 0.244 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<415>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.caretronics.reunioes.testcontroller.DepartmentControllerTest.test_update_success(DepartmentControllerTest.java:128)
+
+test_create_success(com.caretronics.reunioes.testcontroller.DepartmentControllerTest)  Time elapsed: 0.169 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<405>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.caretronics.reunioes.testcontroller.DepartmentControllerTest.test_create_success(DepartmentControllerTest.java:113)
+

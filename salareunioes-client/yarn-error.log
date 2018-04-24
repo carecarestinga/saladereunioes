@@ -1,0 +1,64 @@
+Arguments: 
+  C:\dev\nodejs\node.exe C:\Users\caretronics\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\caretronics\bin;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin;C:\Users\caretronics\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Java\jdk1.8.0_152\jre;C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Java\jdk1.8.0_152;C:\Program Files\Java\jdk1.8.0_152\jre;C:\Program Files\Java\jdk1.8.0_152\jre\bin\b;C:\dev\nodejs;C:\Program Files\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Users\caretronics\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 ia32
+
+npm manifest: 
+  {
+    "name": "meeting-react-client",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-scripts": "0.4.1"
+    },
+    "dependencies": {
+      "axios": "^0.16.2",
+      "react": "^15.3.1",
+      "react-bootstrap": "^0.30.3",
+      "react-bootstrap-table": "^2.5.2",
+      "react-dom": "^15.3.1",
+      "react-router": "^2.8.0",
+      "react-select": "^1.0.0-rc.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "./node_modules/react-scripts/config/eslint.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\Windows\system32\cmd.exe
+  Arguments: /d /s /c react-scripts start
+  Directory: C:\dev\Workspaces\JAVA_SPRING_BOOT\spring-react-restful-example-master\meeting-client
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Users\caretronics\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Users\caretronics\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Users\caretronics\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)

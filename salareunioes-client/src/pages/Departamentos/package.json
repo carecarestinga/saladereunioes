@@ -1,0 +1,6 @@
+{
+  "name": "Departamentos",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Departamentos.js"
+}
